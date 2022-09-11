@@ -1,0 +1,86 @@
+/*
+File: style.css
+Name : Anson Cheang
+Date : 09/05/2022 - 09/11/2022
+Description : The CSS coding part of the html assignment individual comments will be placed as we go along
+*/
+/*
+This part is for the pictures to allow them to change 
+the image as long as you hover over them, and dont have them overlapping each other
+*/
+.Pokemon {
+    width: 225px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+}
+
+.Pokemon .top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.Pokemon:hover .top {
+    display: inline;
+}
+
+/*
+This part is to create class that allows the tables, images etc to center themselves
+*/
+.center {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+This part is for the tables to create the borders
+*/
+table, th, td {
+    border: 3px solid crimson;
+    background-color: white;
+    border-color: crimson;
+    border-collapse: collapse;
+}
+
+/*
+Aligns the text to be at the center
+*/
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/*
+Adds in the black line dividers
+*/
+hr {
+    height: 10px;
+    background-color: black;
+}
+
+/*
+changes the background color
+*/
+body {
+    background-color: skyblue;
+}
